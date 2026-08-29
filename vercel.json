@@ -1,5 +1,5 @@
 {
-  "buildCommand": "vite build && esbuild server/_core/vercelHandler.ts --bundle --platform=node --format=esm --target=node20 --packages=external --alias:@shared=./shared --outfile=api/index.js",
+  "buildCommand": "pnpm run vercel-build",
   "outputDirectory": "dist/public",
   "installCommand": "pnpm install",
   "rewrites": [
